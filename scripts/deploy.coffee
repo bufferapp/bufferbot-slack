@@ -1,5 +1,5 @@
 # Description:
-#  Kick of a jenkins deploy build 
+#  Kick of a jenkins deploy build
 #
 # Commands:
 #   hubot deploy <target> - Deploy master to the given envirnonment
@@ -27,8 +27,8 @@ startBuild = (msg, target, branch = "master") ->
 
 
 module.exports = (robot) ->
-  
-  robot.respond /deploy\s*([a-zA-Z0-9-/']+\s)(to\s+)?(.+)/i, (msg) ->
+
+  robot.respond /deploy\s*([_a-zA-Z0-9-/']+\s)(to\s+)?(.+)/i, (msg) ->
     branch     = msg.match[1] or null
     target     = msg.match[3] or null
     branch     = branch.replace /^\s+|\s+$/g, ""
