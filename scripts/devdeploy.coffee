@@ -1,3 +1,14 @@
+# Description:
+#   Does deploys to dev machines and manages their states
+#
+# Commands:
+#   hubot devdeploy <branchname> - Deploys a given branch to an available dev machine
+#   hubot devdeploy status - Displays the status of the available dev machines
+#   hubot devdeploy unlock <machinename> - Unlock machines dev 1 through dev 3
+# 
+# Author:
+#   adnan
+
 jenkinsURL           = process.env.HUBOT_CIBOT_URL
 jenkinsToken         = process.env.HUBOT_CIBOT_BUILD_TOKEN
 jenkinsBuildJobName  = process.env.HUBOT_CIBOT_DEV_BUILD_JOB_NAME
