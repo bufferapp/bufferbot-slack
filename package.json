@@ -27,7 +27,8 @@
     "@slack/client": "^3.4.0",
     "hubot-redis-brain": "0.0.3",
     "hubot-shipit": "^0.2.0",
-    "lodash": "^3.10.1"
+    "lodash": "^3.10.1",
+    "hubot": "~2.19"
   },
   "devDependencies": {
     "codecov": "~1.0.1",
