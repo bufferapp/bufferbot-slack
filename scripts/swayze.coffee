@@ -1,4 +1,5 @@
-# To celebrate legancy actor Patrick Swayze
+# Description:
+#  To celebrate legancy actor Patrick Swayze
 
 swayzes = [
   'http://images5.fanpop.com/image/photos/31400000/Patrick-Swayze-patrick-swayze-31404258-1280-1024.jpg'

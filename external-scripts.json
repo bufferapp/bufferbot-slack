@@ -1,1 +1,5 @@
-[]
+[
+  "hubot-shipit",
+  "hubot-reload-scripts",
+  "hubot-redis-brain"
+]
